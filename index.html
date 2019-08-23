@@ -1,0 +1,387 @@
+<html>
+<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<title> beeauty and the queens </title>
+<link href="https://fonts.googleapis.com/css?family=Nothing+You+Could+Do&display=swap" rel="stylesheet">
+<style>
+
+  body {
+    background-color: #EBD1DC;
+    font-family: 'Nothing You Could Do', cursive;
+  }
+
+  h1 {
+    float: top;
+    margin-left: 35%;
+    margin-top: 1em;
+  }
+
+  ul {
+    border:0px;
+    border-width:1px 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+  text-align:center;
+}
+
+li {
+  width: 100%;
+  background-color: #333;
+  overflow: auto;
+  display:inline;
+
+
+}
+
+li a {
+  float: left;
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  width: 18.29%;
+  text-decoration: none;
+  background-color: #333;
+
+
+}
+
+li a:hover {
+  background-color: #777;
+}
+
+/* li a.active {
+  background-color: #555; */
+
+
+@media screen and (max-width: 500px) {}
+  .navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+
+  }
+
+  #home h2 {
+
+      text-align: center;
+      margin-top: 4em;
+      color: #c27ba0;
+      }
+  #home h4 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+  }
+
+  #positivityblog * {
+  box-sizing: border-box;
+}
+
+  #positivityblog h2, h3 {
+    color: #c27ba0
+  }
+
+  #positivityblog body {
+    font-family: 'Montserrat', sans-serif;
+    src: url(<link href="https://fonts.googleapis.com/css?family=Montserrat:300&display=swap" rel="stylesheet">);
+    padding: 20px;
+    background: #f1f1f1;
+  }
+
+  #positivityblog .header {
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background: white;
+    margin-top: 1.5em
+  }
+
+  #positivityblog .leftcolumn {
+    float: left;
+    width: 75%;
+  }
+
+  #positivityblog .rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+  }
+
+  #positivityblog .fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+  }
+
+  #positivityblog .card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+  }
+
+  #positivityblog .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  #positivityblog .footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+  }
+
+  #positivityblog @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+    }{}
+
+}
+
+
+  }
+
+  #mentalillnesses a:link {
+  color: #c27ba0;
+  background-color: transparent;
+  text-decoration: none;
+}
+  #mentalillnesses a:visited {
+  color: #c27ba0;
+  background-color: transparent;
+  text-decoration: none;
+}
+  #mentalillnesses a:hover {
+  color: #c27ba0;
+  background-color: transparent;
+  text-decoration: underline;
+}
+  #mentalillnesses a:active {
+  color: #c27ba0;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+  #mentalillnesses h2 {
+    text-align: center;
+    margin-top: 4em;
+    color: #c27ba0;
+  }
+
+  #mentalillnesses h3 {
+    text-align: center;
+    margin-top: 2em;
+    color: #999999;
+    font-family: 'Montserrat', sans-serif;
+    src: url(<link href="https://fonts.googleapis.com/css?family=Montserrat:300&display=swap" rel="stylesheet">);
+  }
+
+  #resources {
+
+  }
+
+  #aboutus {
+
+  }
+
+
+
+
+</style>
+
+<script>
+if (window.addEventListener){ window.addEventListener("message", function(event) { if(event.data.length >= 22) { if( event.data.substr(0, 22) == "__MM-LOCATION.REDIRECT") location = event.data.substr(22); } }, false); }
+else if (window.attachEvent){ window.attachEvent("message", function(event) { if( event.data.length >= 22) { if ( event.data.substr(0, 22) == "__MM-LOCATION.REDIRECT") location = event.data.substr(22); } }, false); }
+function scrollWin() {
+  window.scrollBy(0, 100);
+}
+
+function showHome() {
+  document.getElementById("home").style.display = "block";
+  document.getElementById("positivityblog").style.display = "none";
+  document.getElementById("mentalillnesses").style.display = "none";
+  document.getElementById("resources").style.display = "none";
+  document.getElementById("aboutus").style.display = "none";
+}
+
+function showPositivity() {
+  document.getElementById("home").style.display = "none";
+  document.getElementById("positivityblog").style.display = "block";
+  document.getElementById("mentalillnesses").style.display = "none";
+  document.getElementById("resources").style.display = "none";
+  document.getElementById("aboutus").style.display = "none";
+}
+
+function showMentalIllnesses() {
+  document.getElementById("home").style.display = "none";
+  document.getElementById("positivityblog").style.display = "none";
+  document.getElementById("mentalillnesses").style.display = "block";
+  document.getElementById("resources").style.display = "none";
+  document.getElementById("aboutus").style.display = "none";
+}
+
+function showResources() {
+  document.getElementById("home").style.display = "none";
+  document.getElementById("positivityblog").style.display = "none";
+  document.getElementById("mentalillnesses").style.display = "none";
+  document.getElementById("resources").style.display = "block";
+  document.getElementById("aboutus").style.display = "none";
+}
+
+function showAboutUs() {
+  document.getElementById("home").style.display = "none";
+  document.getElementById("positivityblog").style.display = "none";
+  document.getElementById("mentalillnesses").style.display = "none";
+  document.getElementById("resources").style.display = "none";
+  document.getElementById("aboutus").style.display = "block";
+}
+
+</script>
+</head>
+
+<body>
+  <div style="background-color: #FFF490;padding:30px;">
+    <h1>
+    beeauty and the queens
+    </h1>
+  </div>
+
+  <!-- <h1>
+  beeauty and the queens
+  </h1> -->
+
+  <!-- <h1 style="background-color:#FFF490;">beeauty and the queens</h1> -->
+
+  <ul>
+  <li><a class="active" href="#home" onclick="showHome()">home</a></li>
+  <li><a href="#positivityblog" onclick="showPositivity()">positivity blog</a></li>
+  <li><a href="#mentalillnesses" onclick="showMentalIllnesses()">mental illnesses</a></li>
+  <li><a href="#resources" onclick="showResources()">resources</a></li>
+  <li><a href="#aboutus" onclick="showAboutUs()">about us</a></li>
+</ul>
+
+
+
+<div id="home">
+  <p>
+    <h2>
+      mission statement !
+    </h2>
+  </p>
+  <p>
+    <h4>
+      <link href="https://fonts.googleapis.com/css?family=Montserrat:300&display=swap" rel="stylesheet">
+      our mission as beeauty and the queens is to spread positivity,<br>inform others on mental health,<br>and provide resources for those struggling.<br>we want to bring awareness to the mental health community by<br>providing useful tools for everyone.<br>as a group that holds this topic close to our hearts,<br>it is very important for us to share these things with the world.<br>we are aware of the hardships that some people go through and<br>hope that we can provide some assistance through our efforts.
+    </h4>
+  </p>
+  <p>
+    <h2>
+      meaning behind beeauty and the queens
+    </h2>
+  </p>
+  <p>
+    <h4>
+      <link href="https://fonts.googleapis.com/css?family=Montserrat:300&display=swap" rel="stylesheet">
+      bees symbolize community and personal power.<br>we want to show the idea that in this community,<br>we are all queens and have the power to better ourselves.<br>we can all take control of ourselves<br>and lead the life we want to live in our given circumstances.<br>we have the power to see the beauty.<br>we are all queen bees.
+    </h4>
+  </p>
+</div>
+
+<div id="positivityblog" style="display:none">
+  <div class="header">
+  <h2>positivity blog !</h2>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>feminism</h2>
+      <h5 style="font-family: 'Montserrat', sans-serif;" body="link href="https://fonts.googleapis.com/css?family=Montserrat:300&display=swap" rel="stylesheet"">#positivity #inspiration #quotes #powerful, Aug 16, 2019</h5>
+      <img src="marilynmonroe.jpg" alt="Marilyn Monroe" width="980" height="1306">
+      <p>Marilyn Monroe, 1953</p>
+      <p style="font-family: 'Montserrat', sans-serif;" body="link href="https://fonts.googleapis.com/css?family=Montserrat:300&display=swap" rel="stylesheet"">a wise girl knows her limits, a smart girl knows that she has none. ~marilyn monroe
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:300&display=swap" rel="stylesheet">
+      </p>
+    </div>
+    <div class="card">
+      <h2>inspiration</h2>
+      <h5 style="font-family: 'Montserrat', sans-serif;" body="link href="https://fonts.googleapis.com/css?family=Montserrat:300&display=swap" rel="stylesheet"">#inspiration #motivation #quotes, Aug 20, 2019</h5>
+      <img src="oprah.jpg" alt="Oprah Winfrey" width="1024" height="578">
+      <p>Oprah Winfrey, 2017</p>
+      <p style="font-family: 'Montserrat', sans-serif;" body="link href="https://fonts.googleapis.com/css?family=Montserrat:300&display=swap" rel="stylesheet"">surround yourself only with people who are going to take you higher. ~oprah winfrey
+      </p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>submissions</h2>
+      <p>dm us on instagram to submit positivity!<br>our instagram is: @beeautyandthequeens
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:300&display=swap" rel="stylesheet">
+      </p>
+    </div>
+    <div class="card">
+      <h3>categories</h3>
+      <div class="fakeimg">#inspiration</div><br>
+      <div class="fakeimg">#motivation</div><br>
+      <div class="fakeimg">#quotes</div><br>
+      <div class="fakeimg">#people</div><br>
+      <div class="fakeimg">#poetry</div><br>
+      <div class="fakeimg">#personal</div><br>
+      <div class="fakeimg">#stories</div><br>
+      <div class="fakeimg">#actsOfKindness</div><br>
+      <div class="fakeimg">#beauty</div><br>
+      <div class="fakeimg">#powerful</div><br>
+      <div class="fakeimg">#stength</div><br>
+    </div>
+    <div class="card">
+      <h3>follow us !</h3>
+      <p><a href="https://instagram.com/beeautyandthequeens?igshid=7fpc3zkj9b89">instagram: @beeautyandthequeens</a></p>
+      <p><a href="https://twitter.com/bat_queens">twitter: @bat_queens</a></p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>send your submissions !</h2>
+</div>
+</div>
+
+<div id="mentalillnesses" style="display:none">
+  <h2>mental illness</h2>
+  <h3>mental illness (sometimes called mental disorder) is<br>
+    a wide range of conditions that affect mood, thinking and/or behavior.<br>
+    mental illness is often caused by environmental stresses,<br>
+    genetic factors, chemical imbalance, or a combination of these.<br>
+    through medications or lifestyle changes, many people who<br>
+    suffer with a mental illness learn to cope with it in their life.</h3><br><br><br>
+<h4>
+  <a href="html_images.asp" target="_blank">mood disorders</a><br><br>
+  <a href="html_images.asp" target="_blank">anxiety disorders</a><br><br>
+  <a href="html_images.asp" target="_blank">personality disorders</a><br><br>
+  <a href="html_images.asp" target="_blank">psychotic disorders</a><br><br>
+  <a href="html_images.asp" target="_blank">eating disorders</a><br><br>
+  <a href="html_images.asp" target="_blank">trauma-related disorders</a><br><br>
+  <a href="html_images.asp" target="_blank">substance abuse disorders</a><br><br>
+</h4>
+</div>
+
+<div id="resources" style="display">
+  <iframe src="https://createaclickablemap.com/map.php?&id=84468&maplocation=false&online=true" width="900" height="525" style="border: none;"></iframe>
+</div>
+
+<div id="aboutus" style="display:none">
+  <br><br><br><br><br><img src="aisha.png" alt="Aisha" width="310.5" height="425.5">
+  <br><br><br><br><br><img src="samira.png" alt="Samira" width="414" height="704">
+  <br><br><br><br><br><img src="belauna.png" alt="Belauna" width="414" height="704">
+</div>
+
+
+</body>
+</html>
